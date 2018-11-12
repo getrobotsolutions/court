@@ -92,7 +92,7 @@ function btnClick(selection, event) {
                      "faqs": "Click on a subject to learn more." };
     var currentArray = [];
 
-    if (myParam == "sp") {
+    if (param == "sp") {
         currentArray = sp_array;
     } else {
         currentArray = en_array;
