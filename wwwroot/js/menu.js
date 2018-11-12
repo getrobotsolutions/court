@@ -92,12 +92,12 @@ function btnClick(selection, event) {
                      "faqs": "Click on a subject to learn more." };
     var currentArray = [];
 
-    if (param == "sp") {
+    /*if (param == "sp") {
         currentArray = sp_array;
     } else {
         currentArray = en_array;
-    }
-
+    }*/
+currentArray = en_array;
     switch (selection) {
         case 'docket':
             PlaySpeech(currentArray['docket']);
