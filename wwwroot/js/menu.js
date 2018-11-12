@@ -4,14 +4,14 @@
     if (myParam === "sp") {
         $("a").each(function() {
             var alink = $(this).attr("href");
-            alink = alink.substring(0, alink.length-2);
+            if (alink) { alink = alink.substring(0, alink.length-2); }
             $(this).attr("href", alink + "sp"); });
             $("#eng").removeClass("active");
             $("#spa").addClass("active");
     } else {
         $("a").each(function() {
             var alink = $(this).attr("href");
-            alink = alink.substring(0, alink.length-2);
+            if (alink) { alink = alink.substring(0, alink.length-2); }
             $(this).attr("href", alink + "en"); });
             $("#eng").addClass("active");
             $("#spa").removeClass("active");
