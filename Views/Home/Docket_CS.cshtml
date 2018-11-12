@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Find Your Hearing";
+}
+<div class="container-fluid body-content" style="background-color: white;">
+
+<div class="row blue-background" style="margin-top: 150px;">
+
+    <h1 style="font-size: 100px;" class="text-center" id="txtComing">Coming Soon</h1>
+    <h1 style="font-size:80px" class="text-center" id="txtPreview">Preview available soon</h1>
+</div>
+
+<div class="row" style="margin-top: 450px;">
+    <img src="/images/welcome-image.png" alt="" class="img-responsive">
+</div>
+
+</div>
+
+<script>
+
+$(document).ready(function() {
+
+    var myParam = getParameterByName('lang');
+    if (myParam === "sp") {
+        $("a").each(function() {
+            var alink = $(this).attr("href");
+            alink = alink.substring(0, alink.length-2);
+            $(this).attr("href", alink + "sp"); });
+            $("#eng").removeClass("active");
+            $("#spa").addClass("active");
+    } else {
+        $("a").each(function() {
+            var alink = $(this).attr("href");
+            alink = alink.substring(0, alink.length-2);
+            $(this).attr("href", alink + "en"); });
+            $("#eng").addClass("active");
+            $("#spa").removeClass("active");
+    }
+
+    translateText(myParam);
+
+
+});
+
+function translateText(param) {
+
+    var sp_array = { "txtComing": "Viene Pronto",
+                    "txtPreview": "Vista previa disponible pronto" };
+    var en_array = { "txtComing": "Coming Soon",
+                    "txtPreview": "Preview available soon" };
+    var currentArray = [];
+
+    if (param == "sp") {
+        currentArray = sp_array;
+    } else {
+        currentArray = en_array;
+    }
+
+    $("#txtComing").html(currentArray["txtComing"]);
+    $("#txtPreview").html(currentArray["txtPreview"]);
+
+}
+
+
+
+</script>

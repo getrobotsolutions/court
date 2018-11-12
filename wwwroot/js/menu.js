@@ -75,3 +75,45 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
+
+function btnClick(selection, event) {
+    event.preventDefault();
+
+    var sp_array = { "docket": "Haga clic en el número de habitación para direcciones.",
+                     "judges": "Mapas",
+                     "maps": "Conducta en La Corte",
+                     "conduct": "Encuentra tu audiencia",
+                     "faqs": "Juez y Árbitros" };
+
+    var en_array = { "docket": "Click on the Room Number for Directions.",
+                     "judges": "Here is a information on our Judges and Referees.",
+                     "maps": "Click on a Room above, or name below for directions.",
+                     "conduct": "Please follow these Court Conduct procedures.",
+                     "faqs": "Click on a subject to learn more." };
+    var currentArray = [];
+
+    if (param == "sp") {
+        currentArray = sp_array;
+    } else {
+        currentArray = en_array;
+    }
+
+    switch (selection) {
+        case 'docket':
+            PlaySpeech(docket);
+            break;
+        case 'judges':
+            PlaySpeech(judges);
+            break;
+        case 'maps':
+            PlaySpeech(maps);
+            break;
+        case 'conduct':
+            PlaySpeech(conduct);
+            break;
+        case 'faqs':
+            PlaySpeech(faqs);
+            break;
+        
+    }
+}
