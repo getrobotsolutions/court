@@ -124,7 +124,7 @@ function loadData() {
     $("table#docket").html(tableHeader + tableHtml);
     
     filterTable();
-    sortTable(3);
+    sortTable(0);
 
     });
 
