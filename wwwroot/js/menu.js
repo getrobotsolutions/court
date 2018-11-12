@@ -86,9 +86,9 @@ function btnClick(selection, event) {
                      "faqs": "Juez y Árbitros" };
 
     var en_array = { "docket": "Click on the Room Number for Directions.",
-                     "judges": "Here is a information on our Judges and Referees.",
-                     "maps": "Click on a Room above, or name below for directions.",
-                     "conduct": "Please follow these Court Conduct procedures.",
+                     "judges": "Here is the information on our Judges and Referees.",
+                     "maps": "Click on a Room with number, or the Room name for directions.",
+                     "conduct": "Please follow these Courtroom Conduct procedures.",
                      "faqs": "Click on a subject to learn more." };
     var currentArray = [];
 
