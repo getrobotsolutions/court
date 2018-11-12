@@ -77,7 +77,7 @@ function getParameterByName(name, url) {
 }
 
 function btnClick(selection, event) {
-    event.preventDefault();
+    //event.preventDefault();
 
     var sp_array = { "docket": "Haga clic en el número de habitación para direcciones.",
                      "judges": "Mapas",
@@ -97,7 +97,8 @@ function btnClick(selection, event) {
     } else {
         currentArray = en_array;
     }*/
-currentArray = en_array;
+    currentArray = en_array;
+
     switch (selection) {
         case 'docket':
             PlaySpeech(currentArray['docket']);
