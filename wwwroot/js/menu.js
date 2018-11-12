@@ -77,7 +77,7 @@ function getParameterByName(name, url) {
 }
 
 function btnClick(selection, event) {
-    //event.preventDefault();
+    event.preventDefault();
 
     var sp_array = { "docket": "Haga clic en el número de habitación para direcciones.",
                      "judges": "Mapas",
@@ -105,15 +105,19 @@ currentArray = en_array;
             break;
         case 'judges':
             PlaySpeech(currentArray['judges']);
+            location.href="http://localhost:5000/home/judges?lang=en";
             break;
         case 'maps':
             PlaySpeech(currentArray['maps']);
+            location.href="http://localhost:5000/home/maps?floor=1&lang=en";
             break;
         case 'conduct':
             PlaySpeech(currentArray['conduct']);
+            location.href="http://localhost:5000/home/conduct?lang=en";
             break;
         case 'faqs':
             PlaySpeech(currentArray['faqs']);
+            location.href="http://localhost:5000/home/faqs?lang=en";
             break;
         
     }
