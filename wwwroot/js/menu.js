@@ -101,6 +101,7 @@ function btnClick(selection, event) {
     switch (selection) {
         case 'docket':
             PlaySpeech(currentArray['docket']);
+            location.href="docket?lang=en";
             break;
         case 'judges':
             PlaySpeech(currentArray['judges']);
