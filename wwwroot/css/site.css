@@ -1,0 +1,195 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+/*     width: 1080px;
+    height: 1920px; */
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+/* Custom Styles by Dan */
+body {
+    background-color:#5d565e;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 200;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.blue {
+    color: #d8e7ee;
+}
+.brown {
+    color: #5d565e;
+}
+
+div#timebar > div > div > h3 {
+    line-height: 40px;
+}
+
+.button {
+    background-color: #d8e7ee;
+    width: 200px;
+}
+.blue-striped {
+    border-top: 20px solid #d8e7ee;
+    border-bottom: 20px solid #d8e7ee;
+}
+.menu-header {
+    background-color: #d8e7ee;
+    line-height: 55px;
+}
+
+.ui-widget-overlay { 
+    /*position: absolute;*/ 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: #aaaaaa;
+    opacity: 0.3;
+}
+
+.blue-background {
+    background-color: #d8e7ee;
+}
+
+.menu-button {
+    width: 400px;
+    height: 400px;
+    background-color: #d8e7ee;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-button h3 {
+    height: 50px;
+    margin-top: 130px;
+    font-size: 28px;
+}
+
+.menu-btn-large {
+    background-color: #d8e7ee;
+}
+
+.button-dark {
+    background-color: #5d565e;
+    padding: 20px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.button-dark h3 {
+    color: #d8e7ee;
+    line-height: 20px;
+}
+
+.button-dark h3 span.active {
+    color: #eb9379;
+    text-decoration: underline;
+}
+
+.button-light {
+    background-color: #d8e7ee;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+
+}
+.button-light h3 {
+    color: #5d565e;
+    line-height: 20px;
+}
+
+.faq-header {
+    padding-left: 20px;
+}
+.faq-desc {
+    padding: 20px;
+    border: 20px solid #d8e7ee;
+    background: white;
+    line-height: 25px;
+
+}
+
+.judge-profile {
+    height: 300px; 
+    float: left; 
+    margin-top: 20px; 
+    margin-right: 20px;
+}
+#accordion h3 {
+    text-align: left;
+    background-color: #d8e7ee;
+    line-height: 45px;
+    font-size: 22px;
+    color: #5d565e;
+    border: none;
+}
+ol.maps li > a {
+    font-size: 24px;
+}
+
+.floor {
+    font-size: 25px;
+}
+
+table#docket {
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+
+table#docket td {
+    border: 2px solid black;
+    background: #d8e7ee;
+    font-size: 20px;
+    text-align: center;
+}
+
+table#docket th {
+    border: 2px solid black;
+    background: #5d565e;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    text-align: center;
+}

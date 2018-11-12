@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Menu";
+}
+
+<div class="container-fluid body-content" style="background-color: white;">
+    <div class="row">
+        <h2 class="text-center text-uppercase brown menu-header" id="msg_menu_header">Press A Button Below To Begin</h2>    
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-sm-4 col-sm-offset-1 text-center menu-btn-large" >
+            <a href="docket?lang=en"><div class="menu-button">
+                <img src="/images/menu_docket.png" style="width: 200px; height: 200px; float: left; margin-top: 60px;" alt="">
+                <div class="text-uppercase"><h3 class="brown" id="msg_menu_docket" style="font-size: 25px;">Find Your Hearing</h3></div>
+            </div></a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1 text-center menu-btn-large">
+            <a href="maps?floor=1&lang=en"><div class="menu-button">
+                <img src="/images/menu_maps.png" style="width: 200px; height: 200px; float: left; margin-top: 60px;" alt="">
+                <div class="text-uppercase"><h3 class="brown" id="msg_menu_maps">Maps</h3></div>
+            </div></a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="col-sm-4 col-sm-offset-1 text-center menu-btn-large">
+            <a href="judges?lang=en"><div class="menu-button">
+                <img src="/images/menu_judges.png" style="width: 200px; height: 200px; float: left; margin-top: 60px;" alt="">
+                <div class="text-uppercase brown"><h3 class="brown" id="msg_menu_judges">Judges & Referees</h3></div>
+            </div></a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1 text-center menu-btn-large">
+            <a href="conduct?lang=en"><div class="menu-button">
+                <img src="/images/menu_conduct.png" style="width: 200px; height: 200px; float: left; margin-top: 60px;" alt="">
+                <div class="text-uppercase"><h3 class="brown" id="msg_menu_conduct">Courtroom Conduct</h3></div>
+            </div></a>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-4 col-sm-offset-1" style="background-color: #d8e7ee;">
+            <a href="faqs?lang=en">
+            <div class="button-light" id="btn_Faqs">
+                <img src="/images/menu_faqs.png" alt="" style="height: 60px; float: left; margin-top: 10px;" />
+                <div>
+                    <h3 id="msg_menu_faqs"></h3>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-1" style="background-color: #5d565e;">
+            <div class="button-dark" id="btn_English_Spanish">
+                <h3><span id="eng" class="active">English</span>/<span id="spa">Español</span></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 70px;">
+        <img src="/images/welcome-image.png" alt="" class="img-responsive">
+    </div>
+</div>
+
+
+<script src="/js/menu.js" asp-append-version="true"></script>
+
+
+<script type="text/javascript">
+  if (!readCookie("NavigationState")) {
+    writeCookie("NavigationState", true, 30);
+  }
+  function GetJoke(){
+    var temp=Math.floor((Math.random() * 6) + 1);
+    PlaySpeech(jokes[temp]);
+    //alert(jokes[temp]);
+  }
+  var initialJokeTime=setTimeout(GetJoke,30000);
+
+  $(document).click(function(event) {
+      clearTimeout( initialJokeTime );
+      initialJokeTime=setTimeout(GetJoke,120000);
+  });
+</script>

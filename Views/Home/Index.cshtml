@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container-fluid body-content" style="height: 300px;">
+
+<div class="row" style="height: 400px;text-align: center; margin-top: 150px; margin-left: auto; margin-right: auto;">
+    <h1 id="msg_welcome_english" class="text-center text-uppercase blue">
+        Welcome To The
+        Grand Haven
+        CourtHouse
+    </h1>
+    <h1 id="msg_welcome_spanish" class="text-center text-uppercase blue" style="display: none;">
+        BIENVENIDOS A LA GRAND HAVEN CORTE
+    </h1>
+</div>
+
+<div class="row blue-striped" style="margin-top: 200px;">
+    <img src="/images/welcome-image.png" alt="" class="img-responsive">
+</div>
+
+<div class="row" style="margin-bottom: 50px;">
+    <h2 id="msg_welcome_subtitle_english" class="text-center text-uppercase blue">
+        Please Select A Language Below To Continue
+    </h2>
+    <h2 id="msg_welcome_subtitle_spanish" class="text-center text-uppercase blue">
+        POR FAVOR SELECCIONE UN LENGUAJE A CONTINUACIÓN PARA CONTINUAR
+    </h2>
+    <div class="text-center" style="margin: 0 auto; width: 500px; margin-top: 50px;">
+        <a href="/home/menu?lang=en">
+        <div class="button" style="float: left; margin-left: 20px;">
+            <h2 class="brown text-uppercase" style="line-height: 40px;margin-top: 10px;">English</h2>
+        </div>
+        </a>
+        <a href="/home/menu?lang=sp">
+        <div class="button" style="float: right; margin-right: 20px;">
+            <h2 class="brown text-uppercase" style="line-height: 40px;margin-top: 10px;">ESPAÑOL</h2>
+        </div>
+        </a>
+    </div>
+</div>
+
+</div>
+
+<script src="/js/index.js" asp-append-version="true"></script>

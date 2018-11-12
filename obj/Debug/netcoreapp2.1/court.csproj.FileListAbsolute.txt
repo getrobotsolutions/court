@@ -1,0 +1,140 @@
+C:/Repos/court/bin/Debug/netcoreapp2.1/court.deps.json
+C:/Repos/court/bin/Debug/netcoreapp2.1/court.runtimeconfig.json
+C:/Repos/court/bin/Debug/netcoreapp2.1/court.runtimeconfig.dev.json
+C:/Repos/court/bin/Debug/netcoreapp2.1/court.dll
+C:/Repos/court/bin/Debug/netcoreapp2.1/court.pdb
+C:/Repos/court/bin/Debug/netcoreapp2.1/court.Views.dll
+C:/Repos/court/bin/Debug/netcoreapp2.1/court.Views.pdb
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.csprojAssemblyReference.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.csproj.CoreCompileInputs.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.RazorAssemblyInfo.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.RazorAssemblyInfo.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.AssemblyInfoInputs.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.AssemblyInfo.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.TagHelpers.input.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.TagHelpers.output.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.RazorCoreGenerate.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.RazorTargetAssemblyInfo.cache
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.RazorTargetAssemblyInfo.cs
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.Views.pdb
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.dll
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.pdb
+C:/Repos/court/obj/Debug/netcoreapp2.1/court.csproj.CopyComplete
+/Users/danguzman/Dropbox/Temp Downloads/court/bin/Debug/netcoreapp2.1/court.deps.json
+/Users/danguzman/Dropbox/Temp Downloads/court/bin/Debug/netcoreapp2.1/court.runtimeconfig.json
+/Users/danguzman/Dropbox/Temp Downloads/court/bin/Debug/netcoreapp2.1/court.runtimeconfig.dev.json
+/Users/danguzman/Dropbox/Temp Downloads/court/bin/Debug/netcoreapp2.1/court.dll
+/Users/danguzman/Dropbox/Temp Downloads/court/bin/Debug/netcoreapp2.1/court.pdb
+/Users/danguzman/Dropbox/Temp Downloads/court/bin/Debug/netcoreapp2.1/court.Views.dll
+/Users/danguzman/Dropbox/Temp Downloads/court/bin/Debug/netcoreapp2.1/court.Views.pdb
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.csprojAssemblyReference.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.csproj.CoreCompileInputs.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.RazorAssemblyInfo.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.RazorAssemblyInfo.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.AssemblyInfoInputs.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.AssemblyInfo.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.TagHelpers.input.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.TagHelpers.output.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.RazorCoreGenerate.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.RazorTargetAssemblyInfo.cache
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.RazorTargetAssemblyInfo.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.Views.pdb
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.dll
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.pdb
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/court.csproj.CopyComplete
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Menu.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Conduct.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Docket.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Faqs.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Judges.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Maps.g.cshtml.cs
+/Users/danguzman/Dropbox/Temp Downloads/court/obj/Debug/netcoreapp2.1/Razor/Views/Home/Docket2.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\bin\Debug\netcoreapp2.1\court.deps.json
+C:\Users\danpg\Dropbox\Temp Downloads\court\bin\Debug\netcoreapp2.1\court.runtimeconfig.json
+C:\Users\danpg\Dropbox\Temp Downloads\court\bin\Debug\netcoreapp2.1\court.runtimeconfig.dev.json
+C:\Users\danpg\Dropbox\Temp Downloads\court\bin\Debug\netcoreapp2.1\court.dll
+C:\Users\danpg\Dropbox\Temp Downloads\court\bin\Debug\netcoreapp2.1\court.pdb
+C:\Users\danpg\Dropbox\Temp Downloads\court\bin\Debug\netcoreapp2.1\court.Views.dll
+C:\Users\danpg\Dropbox\Temp Downloads\court\bin\Debug\netcoreapp2.1\court.Views.pdb
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.csprojAssemblyReference.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.csproj.CoreCompileInputs.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.RazorAssemblyInfo.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.RazorAssemblyInfo.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.AssemblyInfoInputs.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.AssemblyInfo.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.TagHelpers.input.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.TagHelpers.output.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.RazorCoreGenerate.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Conduct.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Docket.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Docket2.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Faqs.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Judges.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Maps.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Menu.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.RazorTargetAssemblyInfo.cache
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.RazorTargetAssemblyInfo.cs
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.Views.pdb
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.dll
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.pdb
+C:\Users\danpg\Dropbox\Temp Downloads\court\obj\Debug\netcoreapp2.1\court.csproj.CopyComplete
+D:\Furoware NEW\Contents\court\bin\Debug\netcoreapp2.1\court.deps.json
+D:\Furoware NEW\Contents\court\bin\Debug\netcoreapp2.1\court.runtimeconfig.json
+D:\Furoware NEW\Contents\court\bin\Debug\netcoreapp2.1\court.runtimeconfig.dev.json
+D:\Furoware NEW\Contents\court\bin\Debug\netcoreapp2.1\court.dll
+D:\Furoware NEW\Contents\court\bin\Debug\netcoreapp2.1\court.pdb
+D:\Furoware NEW\Contents\court\bin\Debug\netcoreapp2.1\court.Views.dll
+D:\Furoware NEW\Contents\court\bin\Debug\netcoreapp2.1\court.Views.pdb
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.csprojAssemblyReference.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.csproj.CoreCompileInputs.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.RazorAssemblyInfo.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.RazorAssemblyInfo.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.AssemblyInfoInputs.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.AssemblyInfo.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.TagHelpers.input.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.TagHelpers.output.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.RazorCoreGenerate.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Conduct.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Docket.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Docket2.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Faqs.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Judges.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Maps.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Home\Menu.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.RazorTargetAssemblyInfo.cache
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.RazorTargetAssemblyInfo.cs
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.Views.pdb
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.dll
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.pdb
+D:\Furoware NEW\Contents\court\obj\Debug\netcoreapp2.1\court.csproj.CopyComplete

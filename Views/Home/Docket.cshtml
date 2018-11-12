@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Find Your Hearing";
+}
+<div class="container-fluid body-content" style="background-color: white;">
+
+<div class="row blue-background">
+    <div class="col-sm-offset-1 col-sm-1">
+        <h3 class="brown menu-header" id="msg_docket_header">Search:</h3>
+    </div>
+    <div class="col-sm-4">
+        <h4 id="msg_docket_name">Name:</h4>
+        <input type="text" id="txtName" style="width: 100%;" />
+    </div>
+    <div class="col-sm-4">
+        <h4 id="msg_docket_casenumber">Case Number:</h4>
+        <input type="text" id="txtCaseNumber" style="width: 100%;"/>
+    </div>
+    <div class="col-sm-1" style="height: 30px; margin-top: 35px;">
+        <button onclick="loadData();">Go!</button>
+    </div>
+    
+</div>
+
+<div class="row" style="margin-top: 30px;">
+    <h2 class="text-center" id="docket_heading">Today's Docket</h2>
+    <div class="col-sm-10 col-sm-offset-1">
+        <table id="docket">
+            <tr>
+                <th>Name</th>
+                <th>Room</th>
+                <th>Case Number</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Test Name</td>
+                <td>2B</td>
+                <td>GH-18-054846-SM</td>
+                <td>8:00 AM</td> 
+            </tr>
+        </table>
+
+        <div id="msg_empty_result" class="text-center" style="display: none;margin-top: 100px;"><h3>No matches found.</h3></div>
+        <div id="msg_clear_result" class="text-center" style="display: none;margin-top: 30px;"><a href="#" onclick="clearSearch(event);"><h2>Click here to clear results.</a></h2></div>
+
+    </div> 
+</div>
+
+<div class="row" style="margin-top: 50px;">
+    <img src="/images/welcome-image.png" alt="" class="img-responsive">
+</div>
+
+</div>
+
+<script src="/js/docket.js" asp-append-version="true"></script>
