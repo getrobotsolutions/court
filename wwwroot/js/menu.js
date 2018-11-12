@@ -100,19 +100,19 @@ function btnClick(selection, event) {
 
     switch (selection) {
         case 'docket':
-            PlaySpeech(docket);
+            PlaySpeech(currentArray['docket']);
             break;
         case 'judges':
-            PlaySpeech(judges);
+            PlaySpeech(currentArray['judges']);
             break;
         case 'maps':
-            PlaySpeech(maps);
+            PlaySpeech(currentArray['maps']);
             break;
         case 'conduct':
-            PlaySpeech(conduct);
+            PlaySpeech(currentArray['conduct']);
             break;
         case 'faqs':
-            PlaySpeech(faqs);
+            PlaySpeech(currentArray['faqs']);
             break;
         
     }
