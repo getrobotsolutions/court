@@ -1,4 +1,4 @@
-﻿$(document).ready(function() {
+$(document).ready(function() {
 
     var myParam = getParameterByName('lang');
 
@@ -22,9 +22,9 @@
 
     var myFloor = getParameterByName('floor');
     if (myFloor) {
-        changeLayoutToFloor(myFloor);
+        changeLayoutToFloor(myFloor, myParam);
     } else {
-        changeLayoutToFloor('1');
+        changeLayoutToFloor('1', myParam);
     }
 
     $('img[usemap]').rwdImageMaps();
@@ -80,9 +80,9 @@ function translateText(param) {
     var sp_array_1f = { "map_header": "Primer Piso",
                     "map_floor": "Piso:",
                      "map_directions": "Haga clic en una habitación o la nombre para direcciones",
-                     "map_item1": "Tribunal de Distrito 1A",
+                     "map_item1": "Sala de justicia 1A",
                      "map_item1_direct": "Gire a la izquierda y la habitación estará a su derecha.",
-                     "map_item2": "Tribunal de Distrito 1B",
+                     "map_item2": "Sala de justicia 1B",
                      "map_item2_direct": "El cuarto está recto a su derecha.",            
                      "map_item3": "Empleado del centro de servicio público / registro de escrituras.",
                      "map_item3_direct": "Gire a la derecha y la habitación estará a su izquierda.",
@@ -103,7 +103,7 @@ function translateText(param) {
                 "map_directions": "Haga clic en una habitación o la nombre para direcciones",
                 "map_item1": "Biblioteca de Derecho",
                 "map_item1_direct": "Tome el ascensor recto hasta el segundo piso. Salga del ascensor a la derecha y continúe hasta el final del pasillo. La Biblioteca de Derecho es la última sala a la derecha.",     
-                "map_item2": "Sala de audiencias 210",
+                "map_item2": "Sala de Audiencias 210",
                 "map_item2_direct": "Tome el ascensor recto hasta el segundo piso. Salga del ascensor a la derecha y continúe por el pasillo. La habitación estará a su derecha.",
                 "map_item3": "20th Corte de Circuito 2A",
                 "map_item3_direct": "Tome el ascensor recto hasta el segundo piso. Salga del ascensor a la derecha y continúe por el pasillo. La habitación estará a su derecha.",
@@ -113,27 +113,33 @@ function translateText(param) {
                 "map_item5_direct": "Tome el ascensor recto hasta el segundo piso. Salga del ascensor a la derecha y, de inmediato, a la derecha, la habitación quedará a su derecha.",
                 "map_item6": "Ascensor",
                 "map_item6_direct": "Ascensor",
-                "map_item7": "Centro de autoayuda legal",
-                "map_item7_direct": "Tome el ascensor recto hasta el segundo piso. Gire a la izquierda del ascensor y la habitación estará al final del pasillo a su izquierda.",
-                "map_item8": "Amigo de la Corte",
-                "map_item8_direct": "Tome el ascensor recto hasta el segundo piso. Salga a la izquierda del ascensor y la habitación estará en el pasillo a su derecha."
+		        "map_item7": "20th Corte de Circuito 2B",
+                "map_item7_direct": "Tome el ascensor recto hasta el segundo piso.Gire a la izquierda del ascensor y la habitación estará a su izquierda.",
+		        "map_item8": "Sala de audición",
+                "map_item8_direct": "Tome el ascensor recto hasta el segundo piso.Gire a la izquierda del ascensor y la habitación estará al final del pasillo a tu izquierda.",
+                "map_item9": "Centro de autoayuda legal",
+                "map_item9_direct": "Tome el ascensor recto hasta el segundo piso. Gire a la izquierda del ascensor y la habitación estará al final del pasillo a su izquierda.",
+                "map_item10": "Amigo de la Corte",
+                "map_item10_direct": "Tome el ascensor recto hasta el segundo piso. Salga a la izquierda del ascensor y la habitación estará en el pasillo a su derecha."
            };
     
     var sp_array_3f = { "map_header": "Tercer Piso",
            "map_floor": "Piso:",
            "map_directions": "Haga clic en una habitación o la nombre para direcciones",
-           "map_item1": "20th Corte de Circuito 3A",
-           "map_item1_direct": "Tome el ascensor recto hasta el tercer piso. Salga del ascensor a la derecha y verá la habitación a su derecha.",
-           "map_item2": "20th Corte de Circuito 3B",
-           "map_item2_direct": "Tome el ascensor recto hasta el tercer piso. Gire a la izquierda al salir del ascensor y el 20o. Circuito 3B estará directamente a su izquierda.",
-           "map_item3": "Secretario / Registro 20th Registros del Tribunal de Circuito",
-           "map_item3_direct": "Tome el ascensor recto hasta el tercer piso. Salga del ascensor a la izquierda y la habitación se encuentra al final del pasillo a su izquierda.",
-           "map_item4": "Sala de conferencias 325",
-           "map_item4_direct": "Tome el ascensor recto hasta el tercer piso. La habitación estará directamente enfrente de los ascensores.",
-           "map_item5": "20th División de Juicios del Tribunal de Circuito",
-           "map_item5_direct": "Tome el ascensor recto hasta el tercer piso. Salga a la derecha del ascensor y la habitación estará en el pasillo a su izquierda.",
+           "map_item1": "Sala de Audiences 305",
+           "map_item1_direct": "Tome el ascensor recto hasta el tercer piso. Salga del ascensor a la derecha y la habitación estará al final del pasillo a su derecha.",
+	   "map_item2": "20th Corte de Circuito 3A",
+           "map_item2_direct": "Tome el ascensor recto hasta el tercer piso. Salga del ascensor a la derecha y verá la habitación a su derecha.",
+           "map_item3": "20th Corte de Circuito 3B",
+           "map_item3_direct": "Tome el ascensor recto hasta el tercer piso. Gire a la izquierda al salir del ascensor y el 20o. Circuito 3B estará directamente a su izquierda.",
+           "map_item4": "Secretario / Registro 20th Registros del Tribunal de Circuito",
+           "map_item4_direct": "Tome el ascensor recto hasta el tercer piso. Salga del ascensor a la izquierda y la habitación se encuentra al final del pasillo a su izquierda.",
+           "map_item5": "Sala de conferencias 325",
+           "map_item5_direct": "Tome el ascensor recto hasta el tercer piso. La habitación estará directamente enfrente de los ascensores.",
            "map_item6": "Ascensor",
-           "map_item6_direct": "Ascensor"
+           "map_item6_direct": "Ascensor",
+	        "map_item7": "20th División de Juicios del Tribunal de Circuito",
+           "map_item7_direct": "Tome el ascensor recto hasta el tercer piso. Salga a la derecha del ascensor y la habitación estará en el pasillo a su izquierda.",
       };
 
       var en_array_base = { "map_header": "Basement",
@@ -152,7 +158,7 @@ function translateText(param) {
             "map_item6": "MDOC Probation & Parole (Grand Haven Office)",
             "map_item6_direct": "Take the elevator straight ahead to floor 0. Take a right out of the elevator and the room will be down the hall on your left.",
             "map_item7": "William VanRegenmorter Memory Garden",
-            "map_item7_direct": "7	Proceed out the front doors and take a right. The garden will be straight ahead. "
+            "map_item7_direct": "Proceed out the front doors and take a right. The garden will be straight ahead. "
         };
 
         var en_array_1f = { "map_header": "First Floor",
@@ -191,27 +197,33 @@ function translateText(param) {
             "map_item5_direct": "Take the elevator straight ahead to the second floor. Take a right out of the elevator and an immediate right, the room will be down on your right.",
             "map_item6": "Elevator",
             "map_item6_direct": "Elevator",
-            "map_item7": "Legal Self Help Center",
-            "map_item7_direct": "Take the elevator straight ahead to the second floor. Take a left out of the elevator and the room will be at the end of the hallway on your left.",
-            "map_item8": "Friend of the Court",
-            "map_item8_direct": "Take the elevator straight ahead to the second floor. Take a left out of the elevator and the room will be down the hallway on your right."
+	        "map_item7": "20th Circuit Courtroom 2B",
+            "map_item7_direct": "Take the elevator straight ahead to the second floor. Take a left out of the elevator and the room will be on your left.",
+            "map_item8": "Hearing room 215",
+            "map_item8_direct": "Take the elevator straight ahead to the second floor. Take a left out of the elevator and the room will be down the hallway on your left.",
+            "map_item9": "Legal Self Help Center",
+            "map_item9_direct": "Take the elevator straight ahead to the second floor. Take a left out of the elevator and the room will be at the end of the hallway on your left.",
+            "map_item10": "Friend of the Court",
+            "map_item10_direct": "Take the elevator straight ahead to the second floor. Take a left out of the elevator and the room will be down the hallway on your right."
         };
 
         var en_array_3f = { "map_header": "Third Floor",
             "map_floor": "Floor:",
             "map_directions": "Click on a room or name for directions",
-            "map_item1": "20th Circuit Courtroom 3A",
-            "map_item1_direct": "Take the elevator straight ahead to the third floor. Take a right out of the elevator and the room will be on your right.",
-            "map_item2": "20th Circuit Courtroom 3B",
-            "map_item2_direct": "Take the elevator straight ahead to the third floor. Take a left out of the elevator and the 20th Circuit Courtroom 3B will be directly on your left.",
-            "map_item3": "Clerk/Register 20th Circuit Court Records",
-            "map_item3_direct": "Take the elevator straight ahead to the third floor. Take a left out of the elevator and the room is at the end of the hall on your left.",
-            "map_item4": "Conference Room 325",
-            "map_item4_direct": "Take the elevator straight ahead to the third floor. The room will be directly across from the elevators.",
-            "map_item5": "20th Circuit Court Trial Division Office",
-            "map_item5_direct": "Take the elevator straight ahead to the third floor. Take a right out of the elevator and the room will be down the hallway on your left.",
+            "map_item1": "Hearing Room 305",
+            "map_item1_direct": "Take the elevator straight ahead to the third floor. Take a right out of the elevator and the room will be down the hall on your right.",
+            "map_item2": "20th Circuit Courtroom 3A",
+            "map_item2_direct": "Take the elevator straight ahead to the third floor. Take a right out of the elevator and the room will be on your right.",
+            "map_item3": "20th Circuit Courtroom 3B",
+            "map_item3_direct": "Take the elevator straight ahead to the third floor. Take a left out of the elevator and the 20th Circuit Courtroom 3B will be directly on your left.",
+            "map_item4": "Clerk/Register 20th Circuit Court Records",
+            "map_item4_direct": "Take the elevator straight ahead to the third floor. Take a left out of the elevator and the room is at the end of the hall on your left.",
+            "map_item5": "Conference Room 325",
+            "map_item5_direct": "Take the elevator straight ahead to the third floor. The room will be directly across from the elevators.",
             "map_item6": "Elevator",
-            "map_item6_direct": "Elevator"
+            "map_item6_direct": "Elevator",
+            "map_item7": "20th Circuit Court Trial Division Office",
+            "map_item7_direct": "Take the elevator straight ahead to the third floor. Take a right out of the elevator and the room will be down the hallway on your left.",
         };
     var currentArray = [];
 
@@ -233,6 +245,8 @@ function translateText(param) {
         currentArray = en_array_2f;
     } else if ((param == "en") && (myFloor == "3")) {
         currentArray = en_array_3f;
+    } else if (param == "sp") {
+        currentArray = sp_array_1f;
     } else {
         currentArray = en_array_1f;
     }
@@ -268,26 +282,26 @@ function translateText(param) {
 
 }
 
-function changeLayoutToFloor(floor) {
+function changeLayoutToFloor(floor, lang) {
     switch (floor) {
         case '1':
             $(".map-display").hide();
-            $("#map_1stFloor").show();
+            $("#map_1stFloor" + lang).show();
             $("#btnFloor1").addClass("active");
             break;
         case '2':
             $(".map-display").hide();
-            $("#map_2ndFloor").show();
+            $("#map_2ndFloor" + lang).show();
             $("#btnFloor2").addClass("active");
             break;
         case '3':
             $(".map-display").hide();
-            $("#map_3rdFloor").show();
+            $("#map_3rdFloor" + lang).show();
             $("#btnFloor3").addClass("active");
             break;
         case 'b':
             $(".map-display").hide();
-            $("#map_basement").show();
+            $("#map_basement" + lang).show();
             $("#btnFloorB").addClass("active");
             break;
         default: 
