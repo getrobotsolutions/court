@@ -65,9 +65,10 @@ function clearSearch(event) {
 
 function loadData() {
     //$.get("/tempjson.json", function(data) {
-    $.get("/Data/GetCourtDocket", function(dataString) {
+    $.get("/casedata_final.json", function(oldData) {
         
-        var data = JSON.parse(dataString);
+        //var dataJSON = csvJSON(dataString);
+        //var data = JSON.parse(dataString);
         
         var tableHeader = '';
 
@@ -80,6 +81,28 @@ function loadData() {
             tableHeader = "<tr><th>Time</th><th>Name</th><th>Case Number</th><th>Room</th></tr>";
             docket_heading_header = "Today's Docket";
             docket_heading_results = "Here are your results";
+        }
+
+
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+
+        var yy = today.getFullYear();
+        if(dd<10){
+            dd='0'+dd;
+        } 
+        if(mm<10){
+            mm='0'+mm;
+        } 
+        var today = mm + '/' + dd + '/' +yy;
+
+        var data = [];
+
+        for (var i = 0; i < oldData.length; i++) {
+            if (oldData[i]["DATE"] == today) {
+                data.push(oldData[i]);
+            }
         }
 
         var tableHtml = '';        
@@ -122,6 +145,7 @@ function loadData() {
         }
     
     $("table#docket").html(tableHeader + tableHtml);
+
     
     filterTable();
     sortTable(0);
@@ -209,8 +233,9 @@ function sortTable(n) {
         y = rows[i + 1].getElementsByTagName("TD")[n];
         /* Check if the two rows should switch place,
         based on the direction, asc or desc: */
+        // Changed to sort asc by numbers to work with time - DG
         if (dir == "asc") {
-          if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+          if (parseInt(x.innerHTML) > parseInt(y.innerHTML)) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
             break;
@@ -240,3 +265,19 @@ function sortTable(n) {
       }
     }
   }
+
+function newSort() {
+    var table = $('#docket').eq(0)
+    var rows = table.find('tr:gt(0)').toArray().sort(comparer(0))
+    this.asc = !this.asc
+    if (!this.asc){rows = rows.reverse()}
+    for (var i = 0; i < rows.length; i++){table.append(rows[i])}
+}
+
+function comparer(index) {
+    return function(a, b) {
+        var valA = getCellValue(a, index), valB = getCellValue(b, index)
+        return $.isNumeric(valA) && $.isNumeric(valB) ? valA - valB : valA.toString().localeCompare(valB)
+    }
+}
+function getCellValue(row, index){ return $(row).children('td').eq(index).text() }

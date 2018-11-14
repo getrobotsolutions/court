@@ -97,28 +97,30 @@ function btnClick(selection, event) {
     } else {
         currentArray = en_array;
     }*/
-    currentArray = en_array;
+    //currentArray = en_array;
+
+    var myParam = getParameterByName('lang');
 
     switch (selection) {
         case 'docket':
             PlaySpeech(currentArray['docket']);
-            location.href="http://localhost:5000/home/docket?lang=en";
+            location.href="http://localhost:5000/home/docket?lang=" + myParam;
             break;
         case 'judges':
             PlaySpeech(currentArray['judges']);
-            location.href="http://localhost:5000/home/judges?lang=en";
+            location.href="http://localhost:5000/home/judges?lang=" + myParam;
             break;
         case 'maps':
             PlaySpeech(currentArray['maps']);
-            location.href="http://localhost:5000/home/maps?floor=1&lang=en";
+            location.href="http://localhost:5000/home/maps?floor=1&lang=" + myParam;
             break;
         case 'conduct':
             PlaySpeech(currentArray['conduct']);
-            location.href="http://localhost:5000/home/conduct?lang=en";
+            location.href="http://localhost:5000/home/conduct?lang=" + myParam;
             break;
         case 'faqs':
             PlaySpeech(currentArray['faqs']);
-            location.href="http://localhost:5000/home/faqs?lang=en";
+            location.href="http://localhost:5000/home/faqs?lang=" + myParam;
             break;
         
     }
